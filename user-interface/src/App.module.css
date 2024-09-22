@@ -1,0 +1,29 @@
+.app {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.leftColumn {
+  flex: 2;
+}
+
+.rightColumn {
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .main {
+    flex-direction: column;
+  }
+}
